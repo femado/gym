@@ -17,18 +17,23 @@ nav{
     align-items: center;
     position: fixed;
     width: 100%;
+    height: 10%;
     top: 0;
-    /* margin: -10px; */
-    
-    
-    
+    margin: -10px;   
+}
+.nav-bar{
+    /* display: block; */
+}
+.nav-bar:hover{
+
 }
 .nav-links{
     /* border: 1px solid red;   */
     list-style: none;
     display: flex;
     gap: 20px;
-    margin-left: 295px; 
+    margin: auto;
+    /* margin-left: 295px;  */
     font-size: 17px;
 }
 .nav-links a:hover{
@@ -36,16 +41,18 @@ nav{
     
 }
 .nav-links a{
-    border: 1px solid red;  
-    display: none;
+    /* border: 1px solid red;   */
+    
     text-decoration: none;
     color: white;
+    
     
 }
 .logo{
     font-weight: bold;
     color: white;
     font-size: 25px;
+    margin-left: 20px;
 }
 img{
     width: 100%;
@@ -296,7 +303,7 @@ footer{
 
 
 
-@media screen and (max-width:426px){
+@media screen and (max-width:440px){
       body{
         margin: auto;
       }
@@ -547,5 +554,5 @@ footer{
 
 
 @media screen and (min-width:930px) and (max-width:1440px){
-    
+
 }

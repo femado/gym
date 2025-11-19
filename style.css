@@ -100,8 +100,8 @@ img{
 }
 .hero-btn:hover{
     cursor: pointer;
-    background-color:  rgb(5, 125, 246);
-     /* box-shadow:rgb(35, 50, 64, 0.3); */
+    /* background-color:  rgb(5, 125, 246); */
+     box-shadow:5px 5px rgb(20, 104, 183);
     
 }
 .group-fit{

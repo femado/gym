@@ -28,13 +28,19 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="parent">
       <section>
         <div class="hero">
             <img src="/image/gym4.jpg" alt="">
+            <div class="hero1">
+              <h1 class="transform">Transform Your Body</h1>
+              <p>Join our community of fitness enthusiasts and achieve your fitness goals</p>
+              <button class="hero-btn"> Join Now </button>
+            </div>
 
         </div>
-        <h2>Group Fitness Classes</h2>
+
+        <h2 style="font-weight: bold;margin-top: 70px;" class="group-fit">Group Fitness Classes</h2>
         <div class="strength">
           <div class="training">
             <i class="fa-solid fa-dumbbell"></i>
@@ -42,7 +48,7 @@
             <p>Build muscle and increase strength</p>
           </div>
           <div class="cardio">
-            <i class="fa-solid fa-person-running"></i>
+            <i  class="fa-solid fa-person-running" ></i>
             <h3>Cardio Classes</h3>
             <p>Improve endurance and burn calories</p>
           </div>
@@ -52,8 +58,8 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>Our Facilities</h2>
+      <section class="room1">
+        <h2 style="font-weight: bold;margin-top: 100px;" class="our-fac">Our Facilities</h2>
         <div class="room">
           <div class="weight">
             <i class="fa-solid fa-dumbbell"></i>
@@ -72,8 +78,8 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>Membership Plans</h2>
+      <section class="plans-section">
+        <h2 style="font-weight: bold;margin: 20px;">Membership Plans</h2>
         <div class="plans">
           <div class="basic">
             <h3>Basic</h3>
@@ -83,18 +89,17 @@
               <li>Basic equipment</li>
               <li>Group Classes</li>
             </ul>
-            <button class="">Choose Plan</button>
+            <button class="plan-btn">Choose Plan</button>
           </div>
           <div class="premium">
             <h3>Premium</h3>
             <p>#18000/month</p>
-            <ul>
-              <li>24/7 Access</li>
+            <ul><li>24/7 Access</li>
               <li>All Equipment</li>
               <li>Group Classes</li>
               <li>Personal Training</li>
             </ul>
-            <button class="">Choose Plan</button>
+            <button class="plan-btn">Choose Plan</button>
           </div>
           <div class="elite">
             <h3>Elite</h3>
@@ -107,15 +112,15 @@
               <li>Dedicated Trainer</li>
               <li>Supplements</li>
             </ul>
-            <button class="">Choose Plan</button>
+            <button class="plan-btn">Choose Plan</button>
           </div>
         </div>
       </section>
       <section>
         <div class="Contact-container">
-          <div>
+          <div class="contact">
             <div>
-              <h2>Get in Touch</h2>
+              <h2 style="font-weight: bold;">Get in Touch</h2>
               <i class="fa-solid fa-location-dot"></i>
               <div>
                 <h3>Address</h3>
@@ -145,26 +150,26 @@
               </div>
             </div>
           </div>
-          <div>
-            <h2>Send us a Message</h2>
-            <form>
+          <div class="form-container">
+            <h2 style="font-weight: bold;margin-left: 10px;">Send us a Message</h2>
+            <form class="contact-form">
               <div>
-                <input type="text" id="name" name="name" required /><br>
+                <input type="text" class="name" name="name" required /><br>
                 <label for="name">Your Name</label><br>
               </div>
               <div>
-                <input type="text" id="email" name="email" required /><br>
+                <input type="text" class="email" name="email" required /><br>
                 <label for="Email">Your Email</label><br>
               </div>
               <div>
-                <input type="text" id="subject" name="subject" required /><br>
+                <input type="text" class="subject" name="subject" required /><br>
                 <label for="subject">Subject</label><br>
               </div>
               <div>
-                <textarea id="message" name="message" rows="6" required ></textarea><br>
+                <textarea class="message" name="message" rows="6" required ></textarea><br>
                 <label for="message">Your Message</label><br>
               </div>
-              <button type="submit" class="btn">Send Message</button>
+              <button type="submit" class="form-btn">Send Message</button>
             </form>
           </div>
         </div>
@@ -172,8 +177,8 @@
     </main>
     <footer>
       <div class="footer-links">
-        <div>
-          <h3>Quick Links</h3>
+        <div class="footer-quick-link">
+          <h3 style="font-weight: bold;margin-left: 38px;">Quick Links</h3>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#classes">Classes</a></li>
@@ -181,13 +186,13 @@
             <li><a href="#membership">Membership</a></li>
           </ul>
         </div>
-        <div>
+        <div class="open-hrs">
           <h3>Opening Hours</h3>
           <p>Monday - Friday: 7:00 AM - 6:00 PM</p>
           <p>Saturday - Sunday: 8:00 AM - 5:00 PM</p>
         </div>
-        <div>
-          <h3>Follow Us</h3>
+        <div class="follow-us">
+          <h3 style="font-weight: bold;margin-left: 10px;">Follow Us</h3>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>

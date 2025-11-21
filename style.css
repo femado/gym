@@ -4,13 +4,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* .container{ */
-    width: 100%;
-    
-}
-    
-
-
 
 header{
     /* border: 1px solid red; */
@@ -77,7 +70,7 @@ img{
     text-align: center;
     border-radius: 10px;
     background-color:(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     
 }
 .transform{
@@ -185,6 +178,7 @@ img{
 .plans-section{
     margin-bottom: 100px;
     
+    
 }
 .plans{
     /* border: 1px solid red; */
@@ -255,10 +249,13 @@ img{
     
 }
 .name,.email,.subject,.message{
+     /* border: 1px solid red; */
     margin: 10px;
     width: 600px;
     height: 40px;
     border-radius: 5px;
+    
+    
 }
 .message{
     height: 150px;
@@ -295,23 +292,35 @@ footer{
     
 }
 .footer-quick-link a{
+     /* border: 1px solid red; */
     text-decoration: none;
     color: #F5F5F5;
-    line-height: 40px;
+    line-height: 30px;
+    margin-left: 40px;
+    /* margin-top: 50px; */
 }
 .footer-links{
     /* border: 1px solid red; */
     display: flex;
     gap: 300px;
-    padding: 20px;
+    padding: 50px;
     color: #F5F5F5;
+
     
 }
 .open-hrs{
+    /* border: 1px solid red; */
+    line-height: 30px;
     list-style: 30px !important;
+}
+.follow-us{
+     /* border: 1px solid red; */
+    line-height:50px !important;
 }
 .social-links{
     font-size: 25px;
+    
+    
     
 }
 .social-links,.fab{
@@ -327,12 +336,8 @@ footer{
 
 
 @media screen and (max-width:440px){
-      body{
-        margin: auto;
-      }
-      *{
-        /* width: 100%; */
-      }
+     
+     
       .desktop{
         display: none;
       }
@@ -343,7 +348,6 @@ footer{
          background-color: #2c3e50;
           position: fixed;
            width: 100%;
-          
            top: 0;
       }
 
@@ -404,31 +408,37 @@ footer{
          /* border: 1px solid red; */
          z-index: 1;
     position: absolute;
-    top:62px;
+    top:42px;
     width: 90%;
-    height: 250px;
+    height: 270px;
     border-radius: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    left: 22px;
+    left: 17px;
     }
 
     .transform{
         /* border: 1px solid red; */
         margin: 0px 10px;
         font-size: 35px !important;
-        /* margin-left: 35px; */
+        
+        
+    }
+    .hero1 h1{
+         /* border: 1px solid red; */
+         margin-top: -5px;
     }
     .hero1 p{
          /* border: 1px solid red; */
-         font-size: 17px;
+         font-size: 18px;
          line-height: 25px;
-         /* margin:5px */
+         margin-top: 20px;
     }
     .hero-btn{
         width: 40%;
-        margin-top: 10px;
+         /* border: 1px solid red; */
         font-size: 15px;
+        margin-top: 20px;
     }
 
     .nav-links{
@@ -487,20 +497,34 @@ footer{
         flex-direction: column;
         
     }
+    .footer-quick-link{
+        margin-left: -38px;
+        margin-bottom: 30px;
+    }
     .open-hrs{
         margin-top: -300px;
+        margin-bottom: 30px;
+
         
+    }
+    .open-hrs p{
+         /* border: 1px solid red; */
+         font-size: 13px;
     }
     .follow-us{
         margin-top: -300px;
+        margin-left: -10px;
         
+    }
+    .footer-btn p{
+        font-size: 13px;
     }
      
     
     
 }
 
-@media screen and (min-width:450px) and (max-width:900px){
+@media screen and (min-width:440px) and (max-width:900px){
     
       
     .desktop{
@@ -535,7 +559,7 @@ footer{
     .hero1{
          /* border: 1px solid red; */
     /* position: absolute; */
-    top:80px;
+    top: 70px;
     width: 95%;
     height: 330px;
     border-radius: 0px;
@@ -545,7 +569,11 @@ footer{
     }
     .transform{
         /* border: 1px solid red; */
-        margin-top: -17px;
+        
+    }
+    .hero1 h1{
+         /* border: 1px solid red; */
+         margin-top: -18px;
     }
     .hero1 p{
          /* border: 1px solid red; */
@@ -556,7 +584,6 @@ footer{
     .hero-btn{
         width: 25%;
         height: 65px;
-        margin-top: 20px;
         font-size: 25px;
     }
 
@@ -615,15 +642,33 @@ footer{
         flex-direction: column;
         
     }
+    .footer-quick-link{
+         /* border: 1px solid red; */
+         margin-left: -40px;
+         margin-bottom: 30px;
+    }
     .open-hrs{
         margin-top: -300px;
+        margin-bottom: 30px;
         
+    }
+    .open-hrs p{
+        font-size: 20px;
+        /* margin-bottom: 30px; */
     }
     .follow-us{
         margin-top: -300px;
+        margin-left: -13px;
         
+    }
+    .footer-btn p{
+        font-size: 25px;
     }
      
         
 }
+
+
+
+
 

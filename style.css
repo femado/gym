@@ -524,7 +524,7 @@ footer{
     
 }
 
-@media screen and (min-width:450) and (max-width:900px){
+@media screen and (min-width:450px) and (max-width:900px){
     
       
     .desktop{
@@ -667,8 +667,4 @@ footer{
      
         
 }
-
-
-
-
 
